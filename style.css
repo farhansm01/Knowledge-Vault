@@ -219,3 +219,41 @@ nav ul li a {
   margin: 1rem 0 1.5rem 0;
   font-size: 1rem;
 }
+
+/* Footer */
+footer {
+  background: rgba(0, 25, 49, 1);
+  margin-top: 120px;
+}
+.footer-container {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+
+.upper-part {
+  display: flex;
+  justify-content: space-between;
+  color: var(--white);
+  margin-bottom: 80px;
+}
+
+.social-links p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.links {
+  display: flex;
+  font-size: 20px;
+  gap: 1rem;
+  align-items: center;
+}
+
+.copyright-part {
+  border-top: 1px solid rgba(229, 231, 235, 1);
+  color: var(--white);
+  text-align: center;
+  padding: 30px 0;
+}
