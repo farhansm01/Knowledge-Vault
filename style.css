@@ -4,6 +4,9 @@
   --dark-green: rgba(70, 145, 101, 1);
   --light-green: rgba(48, 184, 104, 1);
   --white: rgba(255, 255, 255, 1);
+  --salmon: rgba(249, 85, 85, 1);
+  --dark: rgba(0, 25, 49, 1);
+  --gray: rgba(98, 115, 130, 1);
 }
 * {
   margin: 0;
@@ -91,4 +94,56 @@ nav ul li a {
   background: transparent;
   font-weight: 600;
   margin-left: 1rem;
+}
+
+/* Notes Section */
+.notes {
+  margin: 70px 0;
+}
+.notes-content {
+  max-width: 1360px;
+  margin: auto;
+  text-align: center;
+}
+
+.notes-content h1 {
+  font-size: 3rem;
+  color: var(--dark);
+  margin-bottom: 1rem;
+}
+
+.notes p {
+  color: var(--gray);
+}
+
+.card-container {
+  display: flex;
+  gap: 24px;
+  margin-top: 44px;
+}
+
+.card {
+  padding: 70px 24px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06);
+  background: rgba(255, 255, 255, 1);
+}
+
+.image-container {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: var(--salmon);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
