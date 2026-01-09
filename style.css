@@ -23,6 +23,10 @@
   background: var(--dark-green);
   font-weight: 600;
 }
+.btn:hover {
+  background: var(--light-green);
+  cursor: pointer;
+}
 nav {
   max-width: 1360px;
   margin: 0 auto;
@@ -95,6 +99,12 @@ nav ul li a {
   background: transparent;
   font-weight: 600;
   margin-left: 1rem;
+}
+
+.btn1:hover {
+  background: var(--white);
+  color: var(--dark-green);
+  cursor: pointer;
 }
 
 /* Notes Section */
