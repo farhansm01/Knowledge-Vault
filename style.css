@@ -7,6 +7,7 @@
   --salmon: rgba(249, 85, 85, 1);
   --dark: rgba(0, 25, 49, 1);
   --gray: rgba(98, 115, 130, 1);
+  --dark-gray: rgba(247, 246, 242, 1);
 }
 * {
   margin: 0;
@@ -107,7 +108,8 @@ nav ul li a {
 }
 
 .notes-content h1,
-.sb-content h1 {
+.sb-content h1,
+.earlyAccess-container h1 {
   font-size: 3rem;
   color: var(--dark);
   margin-bottom: 1rem;
@@ -195,4 +197,25 @@ nav ul li a {
   font-weight: 500;
   /* align-items: center; */
   gap: 10px;
+}
+
+/* Early Access Section */
+.earlyAccess-container {
+  max-width: 1360px;
+  margin: auto;
+  text-align: center;
+  padding: 80px 40px;
+  background-color: var(--dark-gray);
+  border-radius: 12px;
+}
+
+.earlyAccess-content {
+  max-width: 700px;
+  margin: auto;
+}
+
+.earlyAccess-container p {
+  color: var(--gray);
+  margin: 1rem 0 1.5rem 0;
+  font-size: 1rem;
 }
